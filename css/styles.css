@@ -2,8 +2,8 @@
 
 /* CSS reset*/
 *{
-    padding: 0;
-    margin: 0;
+    padding: 3px;
+    margin: 5px;
     box-sizing: border-box;
 }
 body {
@@ -23,6 +23,25 @@ body {
 #my-name {
     font-family: "Klee One", cursive;
     color: #DC3535;
+}
+#left-side {
+    width: 49%;
+    display: inline-block;
+}
+#right-side {
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+a {
+    color: #540375;
+    text-decoration: none;
+    border-bottom: 1px dotted #540375;
+}
 
-
+header {
+    margin-top: 16px;
+}
+.nav-link {
+    margin-left: 8px;
 }
