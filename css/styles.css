@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Klee+One&display=swap');
 
+/* CSS reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
-    background-color: goldenrod;
+    background-color: #E8F3D6;
     font-family: "Bree Serif", serif;
+    color: #540375;
 }
-h1{
-    color:darkslategray;
-}
-h2{
-    color:brown;
-}
-h3{
-    color:blue;
-}
+
 #my-avatar{
     width: 150px;
     border-radius: 50%;
@@ -23,5 +22,7 @@ h3{
 }
 #my-name {
     font-family: "Klee One", cursive;
+    color: #DC3535;
+
 
 }
