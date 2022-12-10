@@ -1,15 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Klee+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme&family=Bree+Serif&family=Kaushan+Script&display=swap');
 /* CSS reset*/
 *{
     padding: 3px;
     margin: 5px;
     box-sizing: border-box;
 }
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
 body {
     background-color: #E8F3D6;
     font-family: "Bree Serif", serif;
     color: #540375;
+    height: 100vh;
+    width: 100vw;
+
 }
 
 #my-avatar{
@@ -21,8 +29,8 @@ body {
     text-align: center;
 }
 #my-name {
-    font-family: "Klee One", cursive;
-    color: #DC3535;
+    font-family: "Kaushan Script", cursive;
+    color: #7F167F;
 }
 #left-side {
     width: 49%;
@@ -44,4 +52,16 @@ header {
 }
 .nav-link {
     margin-left: 8px;
+}
+footer {
+    background-color:#E8F3D6;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 16px;
+
+}
+footer a:first-child {
+    margin-right: 16px;
 }
