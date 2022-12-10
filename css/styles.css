@@ -67,6 +67,7 @@ footer a:first-child {
 }
 
 #content div {
+    background-color: #E8F3D6;
     width: 60%;
     position: absolute;
     top: 50%;
