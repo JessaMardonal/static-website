@@ -87,6 +87,13 @@ footer a:first-child {
     column-gap: 16px;
     padding: 16px;
 }
+   @media (min-width: 426px) and (max-width: 768px) {
+    #hero-banner > div{
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+}
+   }
 #hero-banner > div > div {
     display: inline-block;
 }
@@ -96,7 +103,7 @@ footer a:first-child {
     color: #FFE1E1;
 }
 #hero-banner h1{
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 #hero-banner h2 {
     font-size: 1.1rem;
